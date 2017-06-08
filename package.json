@@ -1,6 +1,6 @@
 {
-  "name": "ember-cli-selfsigned",
-  "version": "0.0.1",
+  "name": "ember-cli-ss",
+  "version": "0.0.3",
   "description": "'ember ss' which starts a simple local SSL server",
   "directories": {
     "doc": "doc",
@@ -11,31 +11,22 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "github.com/Yubin/ember-cli-ss",
   "engines": {
     "node": ">= 0.10.0"
   },
   "author": "hebby06@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "broccoli-asset-rev": "^2.4.2",
-    "ember-ajax": "^2.0.1",
     "ember-cli": "2.8.0",
-    "ember-cli-app-version": "^1.0.0",
     "ember-cli-dependency-checker": "^1.2.0",
-    "ember-cli-inject-live-reload": "^1.4.0",
     "ember-cli-jshint": "^1.0.0",
     "ember-cli-release": "^0.2.9",
-    "ember-cli-sri": "^2.1.0",
-    "ember-cli-uglify": "^1.2.0",
-    "ember-disable-prototype-extensions": "^1.1.0",
-    "ember-export-application-global": "^1.0.5"
   },
   "keywords": [
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6",
     "selfsigned": "^1.9.1"
   },
   "ember-addon": {

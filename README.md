@@ -1,13 +1,15 @@
-# Ember-cli-selfsigned
+# Ember-cli-ss
 
-This an Ember addon help you to generate selfsigned cert files for local server.
+An Ember CLI addon helps you to generate selfsigned cert files for local SSL server.
 
-## Running
+## Installation
 
-* `ember signself`
+``` ember install ember-cli-ss ```
 
-Generate 2 cert files server.crt and server.key under tmp/ in your project root
+## Usage
 
-* `ember ss`
+The add-on can be used in two ways:
 
-Similar to `ember s` but enable SSL and use the above generated cert files.
+* `ember signself` - Generate 2 cert files server.crt and server.key under tmp/ in your project root
+
+* `ember ss` - All in one command line, run `ember signself` and start SSL server.
